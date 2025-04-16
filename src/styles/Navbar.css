@@ -1,0 +1,20 @@
+nav{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #461220;
+}
+.navLink{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 1rem 10%;
+}
+.navLink:hover{
+    transform: translateY(-10px);
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px #331C00;
+}

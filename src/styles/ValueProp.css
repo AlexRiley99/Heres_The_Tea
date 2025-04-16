@@ -1,0 +1,32 @@
+.valuePropContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+    width: 90%;
+    height: auto;
+    margin: 2rem auto;
+    align-items: center;
+    background-color: rgba(51, 28, 0, 0.5);
+    color: white;
+    border-radius: 1rem;
+}
+.valuePropImg{
+    width: 100%;
+    height: auto;
+    grid-column: 1;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.valuePropText{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    text-shadow: 2px 2px 2px #331c00;
+    grid-column: 2;
+}
+
+@media (max-width: 1080px){
+    .valuePropText{
+        font-size: 1.3rem;
+    }
+}
