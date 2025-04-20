@@ -1,8 +1,8 @@
 .newsletterSignup{
-    width: 90%;
+    width: 70%;
     padding: 1rem;
     margin: 2rem auto;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     text-align: center;
     border: 1px solid #331c00;
     border-radius: 1rem;
@@ -11,7 +11,7 @@
     font-weight: 600;
 }
 input{
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 }
 input[type=email]{
     padding: 0.5rem;
@@ -38,9 +38,6 @@ form{
 
 
 @media (max-width: 1080px){
-    .newsletterSignup, input{
-        font-size: 1.5rem;
-    }
     input[type=email]{
         width: 70%;
     }
