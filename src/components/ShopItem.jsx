@@ -1,5 +1,6 @@
 import '../styles/ShopItem.css';
 import Price from './Price.jsx';
+import Button from './Button.jsx';
 function ShopItem({ID, ShopItemImage, ShopItemName, ShopItemDescription, sizes=[], prices=[]}){
     return(
         <div className="shopItem">
@@ -16,6 +17,9 @@ function ShopItem({ID, ShopItemImage, ShopItemName, ShopItemDescription, sizes=[
                     <Price key={`price-${index}`} amount={price}/>
                 ))}
             </div>
+            <Button
+                text="Add to Cart"
+                onClick={() => onAddToCart({ID, ShopItemName})}/>
         </div>
     );
 }

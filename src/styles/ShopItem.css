@@ -1,0 +1,40 @@
+img{
+    grid-column: span 2;
+    width: 100%;
+    height: 10rem;
+}
+.shopItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #331c00;
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.shopContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+.shopItemName{
+    grid-column: span 2;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.shopItemDescription{
+    grid-column: span 2;
+    text-align: center;
+}
+.size{
+    text-align: right;
+    grid-column: 1;
+}
+.price{
+    text-align: left;
+    grid-column: 2;
+}

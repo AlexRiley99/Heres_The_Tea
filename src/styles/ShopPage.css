@@ -19,3 +19,9 @@
     text-decoration: underline;
     text-shadow: 2px 2px 2px #B06D78;
 }
+Button{
+    grid-column: span 2;
+    width: 200%;
+    height: 3rem;
+    margin: 1rem auto;
+}
