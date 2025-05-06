@@ -1,0 +1,39 @@
+.menuContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+.menuItem{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #331c00;
+    width: 90%;
+    border-radius: 1rem;
+}
+Button{
+    grid-column: span 3;
+    font-size: 1.5rem;
+    margin: auto;
+}
+.menuItemName{
+    grid-column: span 2;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700
+}
+.menuItemDescription{
+    grid-column: span 2;
+    text-align: center;
+}
+.size{
+    text-align: right;
+    grid-column: 1;
+}
+.price{
+    text-align: left;
+    grid-column: 2;
+}

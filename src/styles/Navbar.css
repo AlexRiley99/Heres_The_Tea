@@ -18,3 +18,8 @@ nav{
     text-decoration: underline;
     text-shadow: 2px 2px 2px #331C00;
 }
+.navLink.active{
+    transform: translateY(-10px);
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px #331C00;
+}

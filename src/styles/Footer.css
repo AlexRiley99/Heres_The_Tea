@@ -12,6 +12,7 @@ footer{
     margin: auto;
     text-align: center;
     width: 80%;
+    font-size: 1.5rem;
 }
 .hoursContainer{
     grid-column: 1;
@@ -21,7 +22,7 @@ footer{
 }
 .socials{
     grid-column: 3;
-    width: 5rem;
+    width: 6rem;
 }
 
 @media (max-width: 1080px){
